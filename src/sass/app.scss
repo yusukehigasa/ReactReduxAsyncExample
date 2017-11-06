@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+/* table */
+.tbl {
+    border-collapse: collapse;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    tr {
+        &:nth-of-type(even) {
+            background-color: #fffef7;
+        }
+        &:hover {
+            background-color: #f7f7f7;
+        }
+    }
+    th, td {
+        border-collapse: collapse;
+        box-sizing: border-box;
+        padding: 4px;
+        border: 1px solid #ccc;
+    }
+    th {
+        background-color: #d6d6ff;
+    }
+}

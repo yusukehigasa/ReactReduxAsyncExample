@@ -1,0 +1,41 @@
+{
+    "name": "react-redux-webpack-async-project",
+    "version": "1.0.0",
+    "description": "React+Redux with Async on Webpack - Example Project.",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack -p --watch",
+        "build": "webpack -p",
+        "dev": "webpack-dev-server --content-base public --inline --progress --colors",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "axios": "^0.16.2",
+        "babel-core": "^6.24.1",
+        "babel-loader": "^7.0.0",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "babel-preset-stage-2": "^6.24.1",
+        "css-loader": "^0.28.0",
+        "eslint-loader": "^1.7.1",
+        "extract-text-webpack-plugin": "^2.1.0",
+        "node-sass": "^4.5.2",
+        "redux-logger": "^2.6.1",
+        "redux-promise-middleware": "^4.3.0",
+        "redux-thunk": "^2.1.0",
+        "sass-loader": "^6.0.3",
+        "style-loader": "^0.16.1",
+        "webpack": "^2.4.1",
+        "webpack-dev-server": "^2.4.5"
+    },
+    "dependencies": {
+        "react": "^15.5.4",
+        "react-dom": "^15.5.4",
+        "react-redux": "^5.0.5",
+        "react-router-dom": "^4.1.1",
+        "react-router-redux": "^4.0.8",
+        "redux": "^3.6.0"
+    }
+}

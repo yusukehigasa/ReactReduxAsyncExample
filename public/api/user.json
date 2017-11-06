@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "first_name": "george",
+        "last_name": "bluth",
+        "avatar": "example123.jpg",
+        "gender": 1
+    },
+    {
+        "id": 2,
+        "first_name": "joy",
+        "last_name": "lee",
+        "avatar": "example777.jpg",
+        "gender": 2
+    },
+    {
+        "id": 3,
+        "first_name": "oscar",
+        "last_name": "arkin",
+        "avatar": "example456.jpg",
+        "gender": 1
+    },
+    {
+        "id": 4,
+        "first_name": "lucille",
+        "last_name": "wedge",
+        "avatar": "example908.jpg",
+        "gender": 1
+    },
+    {
+        "id": 5,
+        "first_name": "jesse",
+        "last_name": "aiken",
+        "avatar": "example908.jpg",
+        "gender": 1
+    }
+]
